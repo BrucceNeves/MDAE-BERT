@@ -36,7 +36,7 @@ pip install -r requirements.txt
 #### (Optional) 1.1 Datasets (you can use these datasets or your own)
 [download here](https://drive.google.com/uc?id=1UXzERbIVny5BLCqadqTTpDoiBZA97qCv)
 
-### 2 Train a MDAE-BERT model
+### 2. Train a MDAE-BERT model
 To train a MDAE-BERT you need to provide the datasets separated by commas, as in the example below.
 ```shell
 python train.py --datasets aspect_datasets/canon/canon.xml.seg,aspect_datasets/diaper_champ/diaper_champ.xml.seg
