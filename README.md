@@ -16,8 +16,8 @@ Aspect-based sentiment analysis is the most promising scenario for Opinion Minin
 
 In this work we use the IOB representation for token labels. The IOB is short for inside, outside, beginning. Each token of a text in the training set is labeled with <b>class B</b>, which indicates that the token represents the <u>beginning</u> of an aspect; <b>class I</b>, which indicates that the token is <u>inside</u> an aspect; and <b>class O</b>, which indicates that the token is <u>outside</u> an aspect. The IOB representation is illustrated in Figures bellow:
 
-<img src="Images/iob_example1.jpg" alt="iob example 1" height="100" />
-<img src="Images/iob_example2.jpg" alt="iob example 2" height="100" />
+<img src="Images/iob_example1.jpg" alt="iob example 1" height="60" />
+<img src="Images/iob_example2.jpg" alt="iob example 2" height="60" />
 
 ## Using a pre-trained MDAE-BERT model
 
