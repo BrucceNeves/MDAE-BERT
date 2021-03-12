@@ -9,3 +9,20 @@ This repository contains supplementary material of the paper "Multi-Domain Aspec
 If you want to use our pre-trained MDAE-BERT to extract aspect from reviews, then start with the MDAE-BERT API demo code. We trained MDAE-BERT with 15 datasets ([available here](https://drive.google.com/uc?id=1UXzERbIVny5BLCqadqTTpDoiBZA97qCv)) from different domains.
 
 * [Pre-trained MDAE-BERT Model (Google Colab)](https://colab.research.google.com/drive/1eZCZzQVGV05w29izmL0etUGtedoK2ijN)
+
+## Training your own MDAE-BERT model
+
+### 1. Requirements
+To run is required a dataset file where each line represents an edge in the following format:
+```shell
+pip install -r requirements.txt
+```
+
+#### (Optional) 1.1 Datasets (you can use these datasets or your own)
+[download here](https://drive.google.com/uc?id=1UXzERbIVny5BLCqadqTTpDoiBZA97qCv)
+
+### 2 Training MDAE-BERT
+To train a MDAE-BERT you need to provide the datasets separated by commas, as in the example below.
+```shell
+python train.py --datasets aspect_datasets/canon/canon.xml.seg,aspect_datasets/diaper_champ/diaper_champ.xml.seg
+```
